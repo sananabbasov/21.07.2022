@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/* Btn stles start */
+.btn {
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-w {
+    background-color: #571F9C;
+    border: #571F9C;
+}
+
+.btn-w :hover {
+    background-color: #571F9C;
+    color: #fff;
+}
+
+/* Btn stles end */
+/* Navbar start */
+
+header .header-top {
+    background-color: #571F9C;
+    color: #fff;
+}
+
+
+header .header-top .header-top-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+header .header-top .header-top-item .right ul {
+    display: flex;
+}
+
+header .header-top .header-top-item .right ul li {
+    list-style: none;
+}
+
+header .header-top .header-top-item .right ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .header-botton .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .header-botton .navbar .logo img {
+    width: 195px;
+    height: 55px;
+}
+
+header .header-botton .navbar .nav-items ul {
+    display: flex;
+}
+
+header .header-botton .navbar .nav-items ul li {
+    list-style: none;
+}
+
+
+header .header-botton .navbar .nav-items ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar end */
+
+
+/* Banner start */
+.banner {
+    background-image: url(../image/banner.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.banner .banner-info {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner .banner-info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.banner .banner-info h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.banner .banner-info h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Banner end */
